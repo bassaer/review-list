@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Review List",
+    "description": "check your review list",
+    "version": "0.0.1",
+    "browser_action": {
+        "default_popup": "index.html",
+        "default_title": "Review LIst"
+    },
+    "icons": {
+        "32": "assets/icon_32.png",
+        "48": "assets/icon_48.png",
+        "128": "assets/icon_128.png"
+    },
+    "permissions": [
+        "accessibilityFeatures.read",
+        "alarms",
+        "background",
+        "storage",
+        "notifications"
+    ],
+    "options_page": "index.html#options",
+    "content_security_policy": "script-src 'self' 'sha256-nZMbCDHQyrKOrMaqTn6y8DOEisAsf2EkbmBLSfV7mmo='; object-src 'self'"
+}

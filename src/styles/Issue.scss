@@ -1,0 +1,29 @@
+.repo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .title-container {
+        width: 90%;
+        .title {
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            width: 96%;
+        }
+    }
+}
+
+.commnets {
+    text-align: right;
+}
+
+.collapsible {
+    margin: 0;
+    .collapsible-header {
+        background-color: #009688;
+        color: #fff;
+    }
+    .collapsible-body {
+        padding: 0;
+    }
+}

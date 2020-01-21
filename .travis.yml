@@ -1,0 +1,14 @@
+languare: node_js
+branches:
+  only:
+  - master
+node_js:
+- 10
+cache: yarn
+script:
+- yarn install --ignore-engines
+- yarn build
+deploy:
+  provider: script
+  script: scripts/release.sh
+  skip_cleanup: true

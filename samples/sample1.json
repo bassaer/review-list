@@ -1,0 +1,116 @@
+{
+  "total_count": 2,
+  "incomplete_results": false,
+  "items": [
+    {
+      "url": "https://api.github.com/repos/bassaer/sample/issues/2",
+      "repository_url": "https://api.github.com/repos/bassaer/sample",
+      "labels_url": "https://api.github.com/repos/bassaer/sample/issues/2/labels{/name}",
+      "comments_url": "https://api.github.com/repos/bassaer/sample/issues/2/comments",
+      "events_url": "https://api.github.com/repos/bassaer/sample/issues/2/events",
+      "html_url": "https://github.com/bassaer/sample/pull/2",
+      "id": 545401698,
+      "node_id": "MDExOlB1bGxSZXF1ZXN0MzU5MjkwMjcz",
+      "number": 2,
+      "title": "Create 2.txt",
+      "user": {
+        "login": "bassaer",
+        "id": 14991643,
+        "node_id": "MDQ6VXNlcjE0OTkxNjQz",
+        "avatar_url": "https://avatars2.githubusercontent.com/u/14991643?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/bassaer",
+        "html_url": "https://github.com/bassaer",
+        "followers_url": "https://api.github.com/users/bassaer/followers",
+        "following_url": "https://api.github.com/users/bassaer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/bassaer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/bassaer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/bassaer/subscriptions",
+        "organizations_url": "https://api.github.com/users/bassaer/orgs",
+        "repos_url": "https://api.github.com/users/bassaer/repos",
+        "events_url": "https://api.github.com/users/bassaer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/bassaer/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "labels": [
+
+      ],
+      "state": "open",
+      "locked": false,
+      "assignee": null,
+      "assignees": [
+
+      ],
+      "milestone": null,
+      "comments": 0,
+      "created_at": "2020-01-05T10:50:03Z",
+      "updated_at": "2020-01-05T10:50:03Z",
+      "closed_at": null,
+      "author_association": "OWNER",
+      "pull_request": {
+        "url": "https://api.github.com/repos/bassaer/sample/pulls/2",
+        "html_url": "https://github.com/bassaer/sample/pull/2",
+        "diff_url": "https://github.com/bassaer/sample/pull/2.diff",
+        "patch_url": "https://github.com/bassaer/sample/pull/2.patch"
+      },
+      "body": "",
+      "score": 1.0
+    },
+    {
+      "url": "https://api.github.com/repos/bassaer/sample/issues/1",
+      "repository_url": "https://api.github.com/repos/bassaer/sample",
+      "labels_url": "https://api.github.com/repos/bassaer/sample/issues/1/labels{/name}",
+      "comments_url": "https://api.github.com/repos/bassaer/sample/issues/1/comments",
+      "events_url": "https://api.github.com/repos/bassaer/sample/issues/1/events",
+      "html_url": "https://github.com/bassaer/sample/pull/1",
+      "id": 545401651,
+      "node_id": "MDExOlB1bGxSZXF1ZXN0MzU5MjkwMjQ0",
+      "number": 1,
+      "title": "Create 1.tx",
+      "user": {
+        "login": "bassaer",
+        "id": 14991643,
+        "node_id": "MDQ6VXNlcjE0OTkxNjQz",
+        "avatar_url": "https://avatars2.githubusercontent.com/u/14991643?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/bassaer",
+        "html_url": "https://github.com/bassaer",
+        "followers_url": "https://api.github.com/users/bassaer/followers",
+        "following_url": "https://api.github.com/users/bassaer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/bassaer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/bassaer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/bassaer/subscriptions",
+        "organizations_url": "https://api.github.com/users/bassaer/orgs",
+        "repos_url": "https://api.github.com/users/bassaer/repos",
+        "events_url": "https://api.github.com/users/bassaer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/bassaer/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "labels": [
+
+      ],
+      "state": "open",
+      "locked": false,
+      "assignee": null,
+      "assignees": [
+
+      ],
+      "milestone": null,
+      "comments": 0,
+      "created_at": "2020-01-05T10:49:29Z",
+      "updated_at": "2020-01-05T10:49:29Z",
+      "closed_at": null,
+      "author_association": "OWNER",
+      "pull_request": {
+        "url": "https://api.github.com/repos/bassaer/sample/pulls/1",
+        "html_url": "https://github.com/bassaer/sample/pull/1",
+        "diff_url": "https://github.com/bassaer/sample/pull/1.diff",
+        "patch_url": "https://github.com/bassaer/sample/pull/1.patch"
+      },
+      "body": "",
+      "score": 1.0
+    }
+  ]
+}
