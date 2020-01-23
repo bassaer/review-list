@@ -9,16 +9,15 @@ export const TargetTable: React.FC<Props> = (props: Props) => {
         <li className="collection-item" key={target.url}>
             <div>
                 {target.url}
-                <a
+                <span
                     className="secondary-content"
-                    href="#options"
                     onClick={() => {
                         props.removeTarget(target)
                         return false;
                     }}
                 >
                     <i className="material-icons">clear</i>
-                </a>
+                </span>
             </div>
         </li>
     );
