@@ -3,24 +3,21 @@ import { Issue } from "../models/Issue";
 import "../styles/Issue.scss"
 
 const IssueBox: React.FC<Issue> = props => {
+    const handleClick = (url: string) => {
+        window.open(url);
+    };
     return (
         <li className="collection-item avatar repo-item">
             <img src={props.user.iconUrl} className="circle" alt="auther icon"/>
             <span className="title-container">
-                <a
-                    href={props.url}
-                    target="_blank"
-                    rel="noreferrer noopener"
-                >
-                    <h6 className="teal-text title">{props.title}</h6>
-                </a>
-
+                <h6 className="teal-text title" onClick={() => {handleClick(props.url)}}>
+                    {props.title}
+                </h6>
                 <p>
                     #{props.id} opened {props.createdAt} by {props.user.login}
                 </p>
             </span>
             <span className="teal white-text badge">
-                {/* <i className="material-icons tiny teal">chat_bubble_outline</i> */}
                 {props.comments}
             </span>
         </li>
