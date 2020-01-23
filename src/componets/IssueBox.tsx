@@ -3,14 +3,11 @@ import { Issue } from "../models/Issue";
 import "../styles/Issue.scss"
 
 const IssueBox: React.FC<Issue> = props => {
-    const handleClick = (url: string) => {
-        window.open(url);
-    };
     return (
         <li className="collection-item avatar repo-item">
             <img src={props.user.iconUrl} className="circle" alt="auther icon"/>
             <span className="title-container">
-                <h6 className="teal-text title" onClick={() => {handleClick(props.url)}}>
+                <h6 className="teal-text title">
                     {props.title}
                 </h6>
                 <p>
@@ -21,7 +18,7 @@ const IssueBox: React.FC<Issue> = props => {
                 {props.comments}
             </span>
         </li>
-    )
+    );
 };
 
 export default IssueBox;
