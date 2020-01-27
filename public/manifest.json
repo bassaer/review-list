@@ -1,8 +1,9 @@
 {
     "manifest_version": 2,
     "name": "Review List",
+    "short_name": "Review LIst",
     "description": "check your review list",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "browser_action": {
         "default_popup": "index.html",
         "default_title": "Review LIst"
