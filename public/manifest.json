@@ -3,7 +3,7 @@
     "name": "Review List",
     "short_name": "Review LIst",
     "description": "check your review list",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "browser_action": {
         "default_popup": "index.html",
         "default_title": "Review LIst"
