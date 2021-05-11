@@ -11,7 +11,7 @@
         "@types/react-redux": "^7.1.5",
         "axios": "^0.21.1",
         "chrome": "^0.1.0",
-        "lodash": "^4.17.19",
+        "lodash": "^4.17.21",
         "materialize-css": "^1.0.0",
         "node-sass": "^4.13.1",
         "react": "^16.12.0",
